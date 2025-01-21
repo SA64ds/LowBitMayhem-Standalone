@@ -1,0 +1,27 @@
+{
+	"storyName": "Low-Bit Mayhem",
+	"difficulties": "Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Bit-Beat",
+			"sa64",
+			[
+				65,
+				65,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Bit-Beat",
+	"hiddenUntilUnlocked": false
+}

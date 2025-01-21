@@ -19,7 +19,8 @@ class OptionsState extends MusicBeatState
 		'Gameplay',
 		'V-Slice Options',
 		#if TRANSLATIONS_ALLOWED  'Language', #end
-		#if (TOUCH_CONTROLS_ALLOWED || mobile)'Mobile Options' #end
+		#if (TOUCH_CONTROLS_ALLOWED || mobile)'Mobile Options', #end
+		'Low-Bit Mayhem Options'
 	];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
@@ -64,6 +65,8 @@ class OptionsState extends MusicBeatState
 			#end
 			case 'Language':
 				openSubState(new options.LanguageSubState());
+			case 'Low-Bit Mayhem Options':
+				openSubState(new options.LowBitMayhemSettingsSubState());
 		}
 	}
 
