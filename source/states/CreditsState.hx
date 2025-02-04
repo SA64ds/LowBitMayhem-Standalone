@@ -40,7 +40,7 @@ class CreditsState extends MusicBeatState
 			['Stawii',            'staw',        'He composed the original version of Bit-Beat and let me use it here.',                     'https://bsky.app/profile/staw.bsky.social',        '3c3934' ],
 			['FrenchOtter',            'frenchie',        "He made SA64's non-pixel sprites and icon.",                     'https://www.youtube.com/@frenchotter',        '8f8dff' ],
 			['RykerTheStriker',            'ryker',        'He made the SA64 chromatic that is used throughout the mod.',                     'https://bsky.app/profile/rykerthestriker.bsky.social',        '00ff00' ],
-			['Scripts Used']
+			['Scripts Used'],
 			['Alicedotlua',            'guy',        'In-Song Credits',                     'https://twitter.com/alicedotlua',        'FFFFFF' ],
 			['AzurePulse',            'guy',        '4:3 Aspect Ratio',                     'https://twitter.com/FrideyNehgGuy',        'FFFFFF' ],
 			['Special Thanks']
