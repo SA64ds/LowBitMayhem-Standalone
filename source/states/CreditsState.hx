@@ -43,7 +43,7 @@ class CreditsState extends MusicBeatState
 			['Scripts Used'],
 			['Alicedotlua',            'guy',        'In-Song Credits',                     'https://twitter.com/alicedotlua',        'FFFFFF' ],
 			['AzurePulse',            'guy',        '4:3 Aspect Ratio',                     'https://twitter.com/FrideyNehgGuy',        'FFFFFF' ],
-			['Special Thanks']
+			['Special Thanks'],
 			['Plush',            'plush',        'She assisted me a lot with getting the custom events I needed',                     'https://bsky.app/profile/plushh.bsky.social',        '0xFFA500' ],
 			["Super Funkin' Galaxy",            'mario',        'I stole a few scripts (with some fixes to work with Psych 1.0), the non-pixel BF alts, and icons from them.',                     'https://gamebanana.com/mods/444759',        'f01419' ],
 			['and YOU!',            'guy',        '...for checking out this one-shot! I hope you enjoy playing it!',                     'https://www.youtube.com/watch?v=jXPF0Bm4u9w',        'FFFFFF' ],
