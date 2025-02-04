@@ -27,18 +27,12 @@
     <img src="art/banner.png" alt="Logo" width="476" height="194">
   </a>
 
-<h3 align="center">P-Slice Engine</h3>
+<h3 align="center">Low-Bit Mayhem</h3>
 
   <p align="center">
-    Crossover between Psych Engine and newer versions of FNF (also known as V-Slice)
+    Originally a scrapped song from a different mod, Low-Bit Mayhem is an FNF one-shot starring SA64 featuring an art-style based on SMB1.
     <br />
-    <a href="https://github.com/Psych-Slice/P-Slice/wiki"><strong>Explore the Wiki »</strong></a>
-    <br />
-    <br />
-    ·
-    <a href="https://github.com/Psych-Slice/P-Slice/issues">Report Bug or Request Feature</a>
-    ·
-    <a href="https://github.com/Psych-Slice/P-Slice/pulls">Create Pull Request</a>
+    <a href="https://github.com/SA64ds/LowBitMayhem-Standalone/issues">Report Bug</a>
   </p>
 </div>
 
