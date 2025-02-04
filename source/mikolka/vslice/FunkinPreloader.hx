@@ -158,7 +158,7 @@ class FunkinPreloader extends FlxBasePreloader
 		Lib.current.stage.window.setIcon(icon);
 		#end
     #if TITLE_SCREEN_EASTER_EGG
-    if(Date.now().getMonth() == 0 && Date.now().getDate() == 14) Lib.current.stage.window.title = "Friday Night Funkin': Mikolka's Engine";
+    if(Date.now().getMonth() == 5 && Date.now().getDate() == 30) Lib.current.stage.window.title = "Friday Night Funkin': Vs. SA64";
     #end
     // Scale assets to the screen size.
     ratio = this._width / BASE_WIDTH / 2.0;

@@ -5,7 +5,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://lime.openfl.org/project/1.0.4 http://lime.openfl.org/xsd/project-1.0.4.xsd">
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Low-Bit Mayhem" file="PSliceEngine" packageName="com.sa64ds.lowbitmayhem" package="com.sa64ds.lowbitmayhem" main="Main" version="1.1" company="sa64ds" />
+	<app title="Friday Night Funkin': Low-Bit Mayhem" file="LowBitMayhem" packageName="com.sa64ds.lowbitmayhem" package="com.sa64ds.lowbitmayhem" main="Main" version="1.1" company="sa64ds" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -103,14 +103,6 @@ xsi:schemaLocation="http://lime.openfl.org/project/1.0.4 http://lime.openfl.org/
 		<assets path="assets/translations" rename="assets" exclude="*.mp3"  unless="web"/>
 	</section>
 
-	<section if="BASE_GAME_FILES">
-		<assets path="assets/base_game" rename="assets" exclude="*.ogg" if="web"/>
-		<assets path="assets/base_game" rename="assets" exclude="*.mp3"  unless="web"/>
-	</section>
-
-	<section if="MODS_ALLOWED">
-		<assets path='example_mods' rename='mods' embed='false' />
-	</section>
 	<assets path='art/readme.txt' rename='do NOT readme.txt' unless="mobile" />
 
 	<!-- _______________________________ Libraries ______________________________ -->
