@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "sa64",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Huh? "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Be ba bei bo "
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "sa64",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh, you're Boyfriend FNF, right?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Beh ba be boh..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "sa64",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Oh, not a big fan of the \"FNF\" part, huh?"
+		}
+	]
+}

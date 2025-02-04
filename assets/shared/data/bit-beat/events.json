@@ -1,0 +1,55 @@
+{
+	"events": [
+		[
+			96000,
+			[
+				["FlashComing", "black", ""],
+				["Change Scroll Speed", "1.2", "3"]
+			]
+		],
+		[
+			97714.2857142857,
+			[
+				["Flash Camera", "1", ""],
+				["Change Stage", "normalstage", "lua"],
+				["MoveCharacterX", "bf", "800"],
+				["MoveCharacterX", "gf", "400"],
+				["MoveCharacterX", "dad", "100"],
+				["MoveCharacterY", "bf", "100"],
+				["MoveCharacterY", "gf", "75"],
+				["MoveCharacterY", "dad", "100"],
+				["Change Character", "BF", "bf-galaxy"],
+				["Change Character", "GF", "gf"],
+				["Change Character", "Dad", "sa64"],
+				["Camera Follow Pos", "", ""],
+				["De-Pixel", "", ""]
+			]
+		],
+		[
+			128498.599439776,
+			[
+				["Alt Idle Animation", "BF", "-alt"]
+			]
+		],
+		[
+			134577.030812325,
+			[
+				["backgroundfade", "1", "1"],
+				["Alt Idle Animation", "BF", ""]
+			]
+		],
+		[
+			136929.971988795,
+			[
+				["Hey!", "", "2"]
+			]
+		],
+		[
+			137714.285714286,
+			[
+				["coverScreen", "true", ""]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

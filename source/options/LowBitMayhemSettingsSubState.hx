@@ -2,6 +2,7 @@ package options;
 
 class LowBitMayhemSettingsSubState extends BaseOptionsMenu
 {
+	public static var stickersetoptions:Array<String> = ['Off', 'All', 'SA64', 'ShultzNG', 'FrenchOtter'];
 	public function new()
 	{
 		title = Language.getPhrase('lbm_menu', 'Low-Bit Mayhem Settings');
@@ -37,14 +38,14 @@ class LowBitMayhemSettingsSubState extends BaseOptionsMenu
 			"Changes the time bar colors in Bit-Beat",
 			'timebarc',
 			STRING,
-			['Off', 'Off']);
+			['Off', 'SA64']);
 		addOption(option);
 
 		var option:Option = new Option('LBM Sticker Set',
 			"If the LBM Sticker Set is enabled and whose stickers are used.",
 			'lbm-sticker-set',
 			STRING,
-			['Off', 'All', 'SA64', 'ShultzNG', 'FrenchOtter']);
+			stickersetoptions;
 		addOption(option);
 
 		super();
