@@ -320,7 +320,7 @@ class StickerSubState extends MusicBeatSubstate
     lastOne.angle = 0;
     lastOne.screenCenter();
 
-    STICKER_SET = "stickers-set-1";
+    STICKER_SET = "lbm-sticker-set";
     STICKER_PACK = "all";
     Mods.loadTopMod(); // We won't be messing with mods from here on
   }

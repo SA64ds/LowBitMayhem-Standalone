@@ -1,3 +1,38 @@
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▓▒▒▓▓▓▓▒▒▒▒▒▒
+▒▒▒▒▓▓▓▓▓░░▓▓▒▒▒▒▒
+▒▒▒▒▒▓▓▓░░▓░▒▒▒▒▒▒
+▒▒▒▒▓░▓░░░▓░░░▒▒▒▒
+▒▒▒▒▓░▓▓░░░▓░░░▒▒▒
+▒▒▒▒▓▓░░░░▓▓▓▓▒▒▒▒
+▒▒▒▒██░░░░░░░▒▒▒▒▒
+▒▒▒█▓█████▓▒▒▒▒▒▒▒
+▒▒▒▒██████░███▒▒▒▒
+▒▒▒███▓███░████▒▒▒
+▒▒▒░░█▓▓██▓██░░▒▒▒
+▒▒▒░░░▓▓▓▓▓▓░░░▒▒▒
+▒▒▒░░▓▓▓▓▓▓▓▓░░▒▒▒
+▒▒▒▒▒▓▓▓▒▒▓▓▓▒▒▒▒▒
+▒▒▒▒███▒▒▒▒███▒▒▒▒
+▒▒▒████▒▒▒▒████▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+Hope you enjoyed this ASCII art, it took longer than I expected...
+
+Anyways, thank you for downloading the standalone build of Low-Bit Mayhem! There shouldn't be too much different between this and the mod folder version, so if there is, feel free to let us know so we can fix it!
+
+If you got this mod from anywhere other than GameBanana or Github, unless stated otherwise on somewhere like my BlueSky (https://bsky.app/profile/sa64ds.github.io), it's a good idea to make run an anti-virus scan, just in case.
+Also, since this is an FNF mod and has a character that is... *ahem*... inspired by a certain Nintendo character... we can't legally sell it, so if you did buy this mod, you most likily got scammed.
+
+Btw, you are free to do whatever with the stuff we made for this mod, especially everything in the Google Drive. Just credit us first because we worked really hard on this to make it the best it could be.
+If you do end up streaming or making a video, please link back to the mod so others can play it, thanks :)
+
+Credits are available in-game if you want to credit us!
+
+
+That's enough from me, back to your regularly scheduled Friday Night Funkin'! See you next time!
+
+
  __                 /                                  
 / _   _ |_ |_ .  _                                     
 \__) (- |_ |_ | | )                                    

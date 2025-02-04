@@ -16,15 +16,15 @@ class MainMenuState extends MusicBeatState
 	public static var funkinVersion:String = '0.5.3'; // Version of funkin' we are emulationg
 	public static var curSelected:Int = 0;
 
+	public static var lowbitMayhemVersion = '1.2'
+
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
+		'awards',
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -96,7 +96,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.screenCenter(X);
 		}
 
-		var psychVer:FlxText = new FlxText(0, FlxG.height - 18, FlxG.width, "Psych Engine " + psychEngineVersion, 12);
+		var psychVer:FlxText = new FlxText(0, FlxG.height - 18, FlxG.width, "Low-Bit Mayhem Ver. " + lowbitMayhemVersion + " (Standalone)", 12);
 		var fnfVer:FlxText = new FlxText(0, FlxG.height - 18, FlxG.width, 'v${funkinVersion} (P-slice ${pSliceVersion})', 12);
 
 		psychVer.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -161,11 +161,6 @@ class MainMenuState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('confirmMenu'));
 				FlxTransitionableState.skipNextTransIn = false;
 				FlxTransitionableState.skipNextTransOut = false;
-				if (optionShit[curSelected] == 'donate')
-				{
-					CoolUtil.browserLoad('https://www.makeship.com/shop/creator/friday-night-funkin');
-				}
-				else
 				{
 					selectedSomethin = true;
 
@@ -198,16 +193,8 @@ class MainMenuState extends MusicBeatState
 								
 							}
 
-							#if MODS_ALLOWED
-							case 'mods':
-								MusicBeatState.switchState(new ModsMenuState());
-							#end
-
-							#if ACHIEVEMENTS_ALLOWED
 							case 'awards':
 								MusicBeatState.switchState(new AchievementsMenuState());
-							#end
-
 							case 'credits':
 								MusicBeatState.switchState(new CreditsState());
 							case 'options':

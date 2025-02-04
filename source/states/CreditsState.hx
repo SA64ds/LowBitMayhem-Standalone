@@ -33,11 +33,21 @@ class CreditsState extends MusicBeatState
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
 
-		#if MODS_ALLOWED
-		for (mod in Mods.parseList().enabled) pushModCreditsToList(mod);
-		#end
-
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Low-Bit Mayhem Team'],
+			['SA64ds',            'sa64',        "I directed the mod and did pretty much everything that isn't listed below",                     'https://bsky.app/profile/sa64ds.github.io',        '2857c6' ],
+			['ShultzNG',            'shultz',        'He did the original animations for SA64, half of which became alts.',                     'https://bsky.app/profile/shultzyng.bsky.social',        '5f0c44' ],
+			['Stawii',            'staw',        'He composed the original version of Bit-Beat and let me use it here.',                     'https://bsky.app/profile/staw.bsky.social',        '3c3934' ],
+			['FrenchOtter',            'frenchie',        "He made SA64's non-pixel sprites and icon.",                     'https://www.youtube.com/@frenchotter',        '8f8dff' ],
+			['RykerTheStriker',            'ryker',        'He made the SA64 chromatic that is used throughout the mod.',                     'https://bsky.app/profile/rykerthestriker.bsky.social',        '00ff00' ],
+			['Scripts Used']
+			['Alicedotlua',            'guy',        'In-Song Credits',                     'https://twitter.com/alicedotlua',        'FFFFFF' ],
+			['AzurePulse',            'guy',        '4:3 Aspect Ratio',                     'https://twitter.com/FrideyNehgGuy',        'FFFFFF' ],
+			['Special Thanks']
+			['Plush',            'plush',        'She assisted me a lot with getting the custom events I needed',                     'https://bsky.app/profile/plushh.bsky.social',        '0xFFA500' ],
+			["Super Funkin' Galaxy",            'mario',        'I stole a few scripts (with some fixes to work with Psych 1.0), the non-pixel BF alts, and icons from them.',                     'https://gamebanana.com/mods/444759',        'f01419' ],
+			['and YOU!',            'guy',        '...for checking out this one-shot! I hope you enjoy playing it!',                     'https://www.youtube.com/watch?v=jXPF0Bm4u9w',        'FFFFFF' ],
+			[""],    
 			['P-Slice Engine Team'],
 			['Mikolka9144',			'mikolka',			'Did everything for P-slice',								 'https://gamebanana.com/members/3329541',									'2ebcfa'],
 			['mcagabe19',			'lily',             'Porter of P-slice for mobile devices and creator of linc_luajit-rewritten (used for mobile builds)',                       'https://youtube.com/@mcagabe19',		'FFE7C0'],
@@ -261,30 +271,6 @@ class CreditsState extends MusicBeatState
 		}
 		else descText.visible = descBox.visible = false;
 	}
-
-	#if MODS_ALLOWED
-	function pushModCreditsToList(folder:String)
-	{
-		var creditsFile:String = Paths.mods(folder + '/data/credits.txt');
-		
-		#if TRANSLATIONS_ALLOWED
-		//trace('/data/credits-${ClientPrefs.data.language}.txt');
-		var translatedCredits:String = Paths.mods(folder + '/data/credits-${ClientPrefs.data.language}.txt');
-		#end
-
-		if (#if TRANSLATIONS_ALLOWED (FileSystem.exists(translatedCredits) && (creditsFile = translatedCredits) == translatedCredits) || #end FileSystem.exists(creditsFile))
-		{
-			var firstarray:Array<String> = File.getContent(creditsFile).split('\n');
-			for(i in firstarray)
-			{
-				var arr:Array<String> = i.replace('\\n', '\n').split("::");
-				if(arr.length >= 5) arr.push(folder);
-				creditsStuff.push(arr);
-			}
-			creditsStuff.push(['']);
-		}
-	}
-	#end
 
 	private function unselectableCheck(num:Int):Bool {
 		return creditsStuff[num].length <= 1;
