@@ -45,7 +45,7 @@ class LowBitMayhemSettingsSubState extends BaseOptionsMenu
 			"If the LBM Sticker Set is enabled and whose stickers are used.",
 			'lbm-sticker-set',
 			STRING,
-			stickersetoptions,
+			stickersetoptions);
 		addOption(option);
 
 		super();
