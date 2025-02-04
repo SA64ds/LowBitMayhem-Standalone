@@ -396,7 +396,7 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'stage': new StageWeek1(); 						//Week 1
-			case 'bbStage': new SMB1Stage();
+			case 'bbStage': new StageWeek1();
 			case 'normalstage': new StageWeek1();
 		}
 		if(isPixelStage) introSoundsSuffix = '-pixel';
