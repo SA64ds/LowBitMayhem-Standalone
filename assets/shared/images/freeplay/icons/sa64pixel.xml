@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sa64pixel.png">
+  <SubTexture name="idle0001" x="0" y="0" width="42" height="42"/>
+
+  <SubTexture name="confirm0001" x="42" y="0" width="42" height="42"/>
+  <SubTexture name="confirm0002" x="0" y="42" width="42" height="42"/>
+  <SubTexture name="confirm0003" x="42" y="42" width="42" height="42"/>
+  <SubTexture name="confirm0004" x="0" y="42" width="42" height="42"/>
+
+  <SubTexture name="confirm-hold0001" x="0" y="42" width="42" height="42"/>
+</TextureAtlas>

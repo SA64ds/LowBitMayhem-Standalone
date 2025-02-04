@@ -1,0 +1,2 @@
+Value 1: Character (bf, gf, dad)
+Value 2: X Position

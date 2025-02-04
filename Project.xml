@@ -5,7 +5,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://lime.openfl.org/project/1.0.4 http://lime.openfl.org/xsd/project-1.0.4.xsd">
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Low-Bit Mayhem" file="LowBitMayhem" packageName="com.sa64ds.lowbitmayhem" package="com.sa64ds.lowbitmayhem" main="Main" version="1.1" company="sa64ds" />
+	<app title="Friday Night Funkin': Low-Bit Mayhem" file="LowBitMayhem" packageName="com.sa64ds.lowbitmayhem" package="com.sa64ds.lowbitmayhem" main="Main" version="1.2" company="sa64ds" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -44,7 +44,6 @@ xsi:schemaLocation="http://lime.openfl.org/project/1.0.4 http://lime.openfl.org/
 
 	<!-- Other stuff -->
 	<define name="ACHIEVEMENTS_ALLOWED" />
-	<define name="TRANSLATIONS_ALLOWED" />
 	<define name="SHOW_LOADING_SCREEN" />
 	<define name="COPYSTATE_ALLOWED" if="MODS_ALLOWED mobile"/>
 
@@ -96,11 +95,6 @@ xsi:schemaLocation="http://lime.openfl.org/project/1.0.4 http://lime.openfl.org/
 	<section if="TITLE_SCREEN_EASTER_EGG">
 		<assets path="assets/secrets" rename="assets/shared" exclude="*.ogg" if="web"/>
 		<assets path="assets/secrets" rename="assets/shared" exclude="*.mp3"  unless="web"/>
-	</section>
-
-	<section if="TRANSLATIONS_ALLOWED">
-		<assets path="assets/translations" rename="assets" exclude="*.ogg" if="web"/>
-		<assets path="assets/translations" rename="assets" exclude="*.mp3"  unless="web"/>
 	</section>
 
 	<assets path='art/readme.txt' rename='do NOT readme.txt' unless="mobile" />

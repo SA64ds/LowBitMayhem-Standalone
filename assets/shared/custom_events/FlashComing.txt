@@ -1,0 +1,7 @@
+Some cool effect that appears coming in songs
+
+Value1 : Color
+(Leaving blank will be white)
+
+Event By: BlixerTheGamer
+Use it for free
