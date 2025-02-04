@@ -1,0 +1,27 @@
+{
+  "name": "lbm-sticker-set",
+  "artist": "SA64ds, ShultzNG, & FrenchOtter ft. PhantomArcade3K",
+  "stickers": {
+    "sa64dssmb": ["sa64smb1","sa64smb2","sa64smb7"],
+    "sa64dssmbbf": ["bfsmb1","bfsmb2","bfsmb7"],
+    "sa64dssmbdx": ["sa64smb3","sa64smb4","sa64smb5","sa64smb6","sa64smb8","sa64smb9"],
+    "sa64dspproject": ["sa64pproject1","sa64pproject2"],
+    "shultzpixel": ["SamualAdams","BFpixel"],
+    "shultzlol": ["lol"],
+    "shultzpartnersintime": ["babyBF", "babyGF", "babySA64"],
+    "shultzsigma": ["sigmA64"],
+    "frenchiefnf": ["SA64Sticker1","SA64Sticker2","SA64Sticker3"],
+    "bf": ["bfSticker1", "bfSticker2", "bfSticker3"],
+    "gf": ["gfSticker1", "gfSticker2", "gfSticker3"]
+  },
+  "stickerPacks": {
+    "sa64ds": ["sa64dssmb", "sa64dssmbdx", "sa64dspproject", "sa64dssmbbf"],
+    "shultz": ["shultzpixel","shultzlol", "shultzpartnersintime", "shultzsigma"],
+    "frenchie": ["frenchiefnf"],
+    "onlymodded": ["sa64dssmb", "sa64dssmbbf", "shultzpixel", "frenchiefnf"],
+    "onlymoddeddx": ["sa64dssmb", "sa64dssmbdx", "sa64dspproject", "sa64dssmbbf", "shultzpixel", "shultzlol", "shultzpartnersintime", "shultzsigma", "frenchiefnf"],
+    "all": ["sa64dssmb", "sa64dssmbbf", "shultzpixel", "frenchiefnf", "bf", "gf"],
+    "alldx": ["sa64dssmb", "sa64dssmbdx", "sa64dssmbbf", "sa64dspproject", "shultzpixel", "shultzlol", "shultzpartnersintime", "shultzsigma", "frenchiefnf", "bf", "gf"],
+    "sigma": ["shultzsigma"]
+  }
+}
