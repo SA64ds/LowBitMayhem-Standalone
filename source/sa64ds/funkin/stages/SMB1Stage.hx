@@ -6,7 +6,7 @@ import objects.Character;
 import objects.Note;
 #end
 
-class StageWeek1 extends BaseStage
+class SMB1Stage extends BaseStage
 {
 	var dadbattleBlack:BGSprite;
 	var dadbattleLight:BGSprite;
